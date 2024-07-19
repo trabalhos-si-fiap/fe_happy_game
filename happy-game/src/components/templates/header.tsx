@@ -5,8 +5,8 @@ import Link from 'next/link';
 
 export default function Header(){
     return(
-        <div className='flex bg-blue-600 justify-around items-center py-5 shadow-sm'>
-            <div className='flex items-center gap-5'>
+        <div className='flex bg-[#0d3b66] justify-around items-center py-4 shadow-sm'>
+            <div className='flex items-center gap-5 '>
                 <Image
                     src={logo}
                     width={70}
@@ -19,7 +19,7 @@ export default function Header(){
                
             </div>
             <nav>
-                <ul className='flex gap-3 flex-grow'>
+                <ul className='flex gap-2 flex-grow'>
                     <Button link={"/"}>
                         Jogos
                     </Button>
@@ -32,7 +32,7 @@ export default function Header(){
                 </ul>
             </nav>
             <div>
-                <ul className='flex gap-4'>
+                <ul className='flex gap-2'>
                     <Button link={"/"}>
                        Log in
                     </Button>

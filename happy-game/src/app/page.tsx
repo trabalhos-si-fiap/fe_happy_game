@@ -7,6 +7,7 @@ import Container from "@/components/templates/Container";
 import TextContainer from "@/components/templates/TextContainer";
 import LargeButton from "@/components/LargeButton";
 import ContainerTextoSobreNos from "@/components/templates/HomeSobreNos";
+import Footer from "@/components/templates/footer";
 
 export default function Home() {
   return (
@@ -47,7 +48,7 @@ export default function Home() {
               </p>
               <LargeButton 
               link={'/'} 
-              className={'bg-blue-800 border-blue-800  hover:text-blue-800'}>
+              className={'bg-[#0d3b66] border-[#0d3b66]  hover:text-[#0d3b66]'}>
                 Ver sobre nós
               </LargeButton>
             </TextContainer>
@@ -69,13 +70,14 @@ export default function Home() {
               <h1 className="font-black text-3xl m-auto text-black">Sugira novos jogos</h1>
               <p>Clique no botão abaixo para sugerir um novo jogo.</p>
               <LargeButton 
-              className={'bg-blue-800 border-blue-800 hover:text-blue-800'} 
+              className={'bg-[#0d3b66] border-[#0d3b66] hover:text-[#0d3b66]'} 
               link={"/"}>
                Sugerir jogo
               </LargeButton>
             </TextContainer>
           </Container>
           <ContainerTextoSobreNos/>
+          <Footer></Footer>
          </div>
       </div>
   )
