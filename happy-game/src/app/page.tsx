@@ -5,6 +5,7 @@ import segundaImagem from "../../public/static/imgs/quem_somos-removebg-preview.
 import Link from "next/link";
 import Container from "@/components/templates/Container";
 import TextContainer from "@/components/templates/TextContainer";
+import LargeButton from "@/components/LargeButton";
 
 export default function Home() {
   return (
@@ -28,12 +29,7 @@ export default function Home() {
                 jogo é cuidadosamente selecionado para promover o desenvolvimento cognitivo e 
                 habilidades essenciais de forma divertida e acessível.
               </p>
-              <Link href={"/"} 
-              className="
-              text-center bg-orange-400 px-4 py-4 rounded-md font-semibold cursor-pointer 
-              w-1/2 m-auto hover:bg-transparent border-4 border-orange-400 ">
-                <span>Jogue agora</span>
-              </Link>
+              <LargeButton link={'/'} className={'bg-orange-400 border-orange-400'}>Jogue agora</LargeButton>
             </TextContainer>
           </Container>
           #Primeira parte do conteudo principal termina aqui
@@ -48,12 +44,7 @@ export default function Home() {
                 importantes,mas também celebram a diversidade e promovem um ambiente acolhedor para 
                 todos os jogadores, independentemente de suas origens ou habilidades.
               </p>
-              <Link href={"/"} 
-              className="
-              text-center bg-blue-800 px-4 py-4 rounded-md font-semibold cursor-pointer 
-              w-1/2 m-auto hover:bg-transparent border-4 border-blue-800 ">
-                <span>Jogue agora</span>
-              </Link>
+              <LargeButton link={'/'} className={'bg-blue-800 border-blue-800'}>Ver sobre nós</LargeButton>
             </TextContainer>
             <Image
               src={segundaImagem}
@@ -63,7 +54,6 @@ export default function Home() {
             />
           </Container>
           #Segunda parte do conteudo da pagina home termina aqui 
-          
          </div>
       </div>
   )
