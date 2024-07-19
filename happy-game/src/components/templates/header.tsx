@@ -33,7 +33,7 @@ export default function Header(){
             </nav>
             <div>
                 <ul className='flex gap-2'>
-                    <Button link={"/"}>
+                    <Button link={"/login"}>
                        Log in
                     </Button>
                     <Button link={"/"}>
