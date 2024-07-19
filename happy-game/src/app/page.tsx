@@ -3,11 +3,10 @@ import Image from "next/image";
 import primeiraImagem from "../../public/static/imgs/implementacao.png"
 import segundaImagem from "../../public/static/imgs/quem_somos-removebg-preview.png"
 import terceiraImagem from "../../public/static/imgs/novo_jogo-removebg-preview.png"
-import Link from "next/link";
 import Container from "@/components/templates/Container";
 import TextContainer from "@/components/templates/TextContainer";
 import LargeButton from "@/components/LargeButton";
-
+import ContainerTextoSobreNos from "@/components/templates/HomeSobreNos";
 
 export default function Home() {
   return (
@@ -24,7 +23,7 @@ export default function Home() {
             />
             <TextContainer>
               <h1 className="font-black text-3xl m-auto text-black">Implementação de projeto</h1>
-              <p className=" text-justify text-black font-medium">
+              <p>
                 Somos um site focado em oferecer os melhores jogos digitais para aprendizado. 
                 Nosso objetivo é proporcionar uma experiência envolvente e educativa, onde cada 
                 jogo é cuidadosamente selecionado para promover o desenvolvimento cognitivo e 
@@ -40,7 +39,7 @@ export default function Home() {
           <Container>
             <TextContainer>
               <h1 className="font-black text-3xl m-auto text-black">Quem Somos</h1>
-              <p className="text-justify text-black font-medium">Somos uma equipe dedicada à divulgação e criação de jogos educativos 
+              <p>Somos uma equipe dedicada à divulgação e criação de jogos educativos 
                 inovadores, reunindo paixão pela aprendizagem e compromisso com a inclusão. 
                 Nossa missão é oferecer experiências interativas que não apenas ensinam conceitos 
                 importantes,mas também celebram a diversidade e promovem um ambiente acolhedor para 
@@ -68,7 +67,7 @@ export default function Home() {
             />
             <TextContainer>
               <h1 className="font-black text-3xl m-auto text-black">Sugira novos jogos</h1>
-              <p className="text-justify m-auto text-black font-medium">Clique no botão abaixo para sugerir um novo jogo.</p>
+              <p>Clique no botão abaixo para sugerir um novo jogo.</p>
               <LargeButton 
               className={'bg-blue-800 border-blue-800 hover:text-blue-800'} 
               link={"/"}>
@@ -76,6 +75,7 @@ export default function Home() {
               </LargeButton>
             </TextContainer>
           </Container>
+          <ContainerTextoSobreNos/>
          </div>
       </div>
   )
