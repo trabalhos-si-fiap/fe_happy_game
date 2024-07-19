@@ -14,7 +14,7 @@ export default function Home() {
   return (
       <div>
          <Header></Header>
-         <div className="flex flex-col items-center gap-20 ">
+         <div className="flex flex-col items-center gap-[8rem] ">
 
           <Container>
           <Image
