@@ -15,14 +15,14 @@ export default function Footer(){
              width={50}
              height={50}
              alt="Logo picture"
-             className="hover:scale-105"
+             className="hover:scale-105 hover:duration-100"
            />
             </a>
           
           <a href="https://github.com/trabalhos-si-fiap/fe_happy_game" target="blank"
-          className="hover:scale-105" >Github do projeto</a>
+          className="hover:scale-105 hover:duration-100" >Github do projeto</a>
           </div>
-          <Link href={'/'} className="hover:scale-105">Voltar ao topo da página</Link>
+          <Link href={'/'} className="hover:scale-105 hover:duration-100">Voltar ao topo da página</Link>
         </div>
     )
 }

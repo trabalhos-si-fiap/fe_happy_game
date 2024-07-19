@@ -8,6 +8,7 @@ import TextContainer from "@/components/templates/TextContainer";
 import LargeButton from "@/components/LargeButton";
 import ContainerTextoSobreNos from "@/components/templates/HomeSobreNos";
 import Footer from "@/components/templates/footer";
+import Desenvolvedores from "@/components/templates/Desenvolvedores";
 
 export default function Home() {
   return (
@@ -77,6 +78,9 @@ export default function Home() {
             </TextContainer>
           </Container>
           <ContainerTextoSobreNos/>
+          <Desenvolvedores></Desenvolvedores>
+
+
           <Footer></Footer>
          </div>
       </div>
