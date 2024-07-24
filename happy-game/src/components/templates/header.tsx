@@ -20,7 +20,7 @@ export default function Header(){
             </div>
             <nav>
                 <ul className='flex gap-2 flex-grow'>
-                    <Button link={"/"}>
+                    <Button link={"/catalogo"}>
                         Jogos
                     </Button>
                     <Button link={"/"}>
@@ -36,7 +36,7 @@ export default function Header(){
                     <Button link={"/login"}>
                        Log in
                     </Button>
-                    <Button link={"/"}>
+                    <Button link={"/cadastro"}>
                        Cadastre-se
                     </Button>
                 </ul>
