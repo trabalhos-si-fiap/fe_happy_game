@@ -1,7 +1,6 @@
 import Image from "next/image";
 import bgImg from "../../../public/static/imgs/bg-image.jpg";
 import Link from "next/link";
-import LargeButton from "@/components/LargeButton";
 import CampoCadastro from "@/components/CampoCadastro";
 
 export default function PaginaDeCadastro() {

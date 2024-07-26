@@ -1,6 +1,4 @@
 import CampoCadastro from "@/components/CampoCadastro";
-import CampoLogin from "@/components/CampoLogin";
-import Container from "@/components/templates/Container";
 import Link from "next/link";
 
 export default function LoginPage() {
