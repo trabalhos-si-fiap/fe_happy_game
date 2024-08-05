@@ -26,7 +26,7 @@ export default function Header(){
                     <Button link={"/"}>
                         Home
                     </Button>
-                    <Button link={"/"}>
+                    <Button link={"/sugerir"}>
                         Sugerir Jogos
                     </Button>
                 </ul>
