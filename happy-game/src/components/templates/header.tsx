@@ -5,8 +5,8 @@ import Link from 'next/link';
 
 export default function Header(){
     return(
-        <div className='flex bg-[#0d3b66] justify-around items-center py-4 shadow-sm'>
-            <div className='flex items-center gap-5 '>
+        <div className='flex bg-[#0d3b66] justify-around items-center py-4 shadow-sm '>
+            <div className='flex items-center gap-2 '>
                 <Image
                     src={logo}
                     width={70}

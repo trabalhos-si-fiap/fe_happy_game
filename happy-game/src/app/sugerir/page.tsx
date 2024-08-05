@@ -7,10 +7,10 @@ export default function SugerirJogos(){
     return ( 
         <div className="flex flex-col ">
             <Header></Header>
-            <div className="flex flex-col items-center justify-center">
-                <h1 className="text-black font-black text-3xl p-5">Sugira um novo jogo!</h1>
-                <div className="h-screen">
-                    <form action="" className=" flex flex-col gap-5 bg-gray-500 p-9 rounded-lg">
+            <div className="flex flex-col w-full">
+                <h1 className="text-black font-black text-3xl p-5 text-center">Sugira um novo jogo!</h1>
+                <div className=" flex h-screen w-full justify-center items-center">
+                    <form action="" className=" flex flex-col gap-5 bg-gray-500 p-9 rounded-lg w-1/2 ">
                         <ElementoDeFormulario
                         id={'nome'}
                         placeholder={'Digite seu nome aqui'}
