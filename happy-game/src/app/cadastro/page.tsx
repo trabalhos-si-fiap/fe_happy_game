@@ -1,9 +1,11 @@
+
 import Image from "next/image";
 import bgImg from "../../../public/static/imgs/bg-image.jpg";
 import Link from "next/link";
 import CampoCadastro from "@/components/CampoCadastro";
 
 export default function PaginaDeCadastro() {
+
   return (
     <div className="flex">
       <div className="w-1/2">

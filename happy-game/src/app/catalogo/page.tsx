@@ -16,8 +16,8 @@ export default function CatalogoDeJogos(){
                         <ul className="flex gap-10">
                             <li>
                                 <CardJogos 
-                                src={codePanda}
-                                descricao={"Aprenda a base da programação com o panda!!!"}>
+                                src={logo}
+                                descricao={"Jogo ainda em construção, volte mais tarde para conferir as novidades"}>
                                     Code Panda
                                 </CardJogos>
                             </li>
