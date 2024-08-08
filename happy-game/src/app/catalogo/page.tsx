@@ -18,7 +18,7 @@ export default function CatalogoDeJogos(){
                                 <CardJogos 
                                 src={logo}
                                 descricao={"Jogo ainda em construção, volte mais tarde para conferir as novidades"}>
-                                    Code Panda
+                                    Jogo em construção
                                 </CardJogos>
                             </li>
                             <li>

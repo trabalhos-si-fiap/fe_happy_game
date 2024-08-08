@@ -1,13 +1,12 @@
 import type { Metadata } from "next";
 import "./globals.css";
-import { Poppins } from "next/font/google"
-
+import { Poppins } from "next/font/google";
+import { AuthContext } from "./context/authProvider";
 
 const fontPoppins = Poppins({
   weight: ["400", "700"],
-  subsets: ['latin']
-
-})
+  subsets: ["latin"],
+});
 
 export const metadata: Metadata = {
   title: "Happy Game",
@@ -20,8 +19,10 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
-      <body className={fontPoppins.className}>{children}</body>
+    <html lang="pt-br">
+      <body className={fontPoppins.className}>
+          {children}
+      </body>
     </html>
-  );
+  );  
 }
