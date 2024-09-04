@@ -1,5 +1,5 @@
 import Image from "next/image";
-import gitHubImage from "../../../public/static/imgs/git_hub.png"
+import gitHubImage from "../../../public/static/imgs/git-hub-logo.png"
 import Link from "next/link";
 
 

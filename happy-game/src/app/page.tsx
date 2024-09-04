@@ -79,8 +79,7 @@ export default function Home() {
           </Container>
           <ContainerTextoSobreNos/>
           <Desenvolvedores></Desenvolvedores>
-
-
+          
           <Footer></Footer>
          </div>
       </div>
