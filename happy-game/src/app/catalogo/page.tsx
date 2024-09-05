@@ -16,14 +16,16 @@ export default function CatalogoDeJogos(){
                         <ul className="flex gap-10">
                             <li>
                                 <CardJogos 
-                                src={logo}
-                                descricao={"Jogo ainda em construção, volte mais tarde para conferir as novidades"}>
-                                    Jogo em construção
+                                src={codePanda}
+                                link={"/telaDoJogo"}
+                                descricao={"Divirtas-se aprendendo fundamentos da programação com Code Panda"}>
+                                    Code Panda
                                 </CardJogos>
                             </li>
                             <li>
                             <CardJogos 
                                 src={logo}
+                                link={"/"}
                                 descricao={"Jogo ainda em construção, volte mais tarde para conferir as novidades"}>
                                     Jogo em construção
                                 </CardJogos>
@@ -31,6 +33,7 @@ export default function CatalogoDeJogos(){
                             <li>
                                 <CardJogos 
                                   src={logo}
+                                  link={"/"}
                                   descricao={"Jogo ainda em construção, volte mais tarde para conferir as novidades"}>
                                       Jogo em construção
                                 </CardJogos>
@@ -42,6 +45,7 @@ export default function CatalogoDeJogos(){
                             <li>
                                 <CardJogos 
                                   src={logo}
+                                  link={"/"}
                                   descricao={"Jogo ainda em construção, volte mais tarde para conferir as novidades"}>
                                       Jogo em construção
                                 </CardJogos>
@@ -49,6 +53,7 @@ export default function CatalogoDeJogos(){
                             <li>
                             <CardJogos 
                                   src={logo}
+                                  link={"/"}
                                   descricao={"Jogo ainda em construção, volte mais tarde para conferir as novidades"}>
                                       Jogo em construção
                                 </CardJogos>
@@ -56,6 +61,7 @@ export default function CatalogoDeJogos(){
                             <li>
                                 <CardJogos 
                                   src={logo}
+                                  link={"/"}
                                   descricao={"Jogo ainda em construção, volte mais tarde para conferir as novidades"}>
                                       Jogo em construção
                                 </CardJogos>
@@ -67,6 +73,7 @@ export default function CatalogoDeJogos(){
                             <li>
                                 <CardJogos 
                                   src={logo}
+                                  link={"/"}
                                   descricao={"Jogo ainda em construção, volte mais tarde para conferir as novidades"}>
                                       Jogo em construção
                                 </CardJogos>
@@ -74,6 +81,7 @@ export default function CatalogoDeJogos(){
                             <li>
                             <CardJogos 
                                   src={logo}
+                                  link={"/"}
                                   descricao={"Jogo ainda em construção, volte mais tarde para conferir as novidades"}>
                                       Jogo em construção
                                 </CardJogos>
@@ -81,6 +89,7 @@ export default function CatalogoDeJogos(){
                             <li>
                                 <CardJogos 
                                   src={logo}
+                                  link={"/"}
                                   descricao={"Jogo ainda em construção, volte mais tarde para conferir as novidades"}>
                                       Jogo em construção
                                 </CardJogos>

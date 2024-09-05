@@ -18,7 +18,7 @@ export default function CardJogos(props: any){
             <p className="w-60 my-2 h-80 text-justify">{props.descricao}</p>
             <LargeButton
             className="bg-orange-400  border-orange-400 hover:text-orange-400"
-            link={"/"}
+            link={props.link}
             >Jogar</LargeButton>
         </div>
     )
